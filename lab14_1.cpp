@@ -18,7 +18,7 @@ int main(){
 	*x = 6;
 	cout << a << " " << b << " " << c << " " << &x << " " << (void *)y << " " << &z << endl;
 	*z = 7;
-	cout << a << " " << b << " " << c << " " << &x << " " << (void *)y << " " << &z << endl;
+	cout << a << " " << b << " " << c << " " << &x << " " << (void *)y << " " << &z;
 	
 	return 0;
 }
